@@ -1,3 +1,7 @@
+#What is Video.js?
+
+Video.js is a extendable, custom HTML5 Video player. Learn more at http://videojs.com
+
 #What does Doing Ending Leaving mean?
 
 ##Doing
