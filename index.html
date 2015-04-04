@@ -22,7 +22,8 @@
 
     <section class="main-content">
     <center>
-    <h4>Demo</h4>
+    <h4 id="end"></h4>
+    <h4 id="demo">Demo</h4>
     <br>
     <video id="example_video_1" class="video-js vjs-default-skin"
   controls preload="auto" width="640" height="264"
@@ -34,7 +35,7 @@
  <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 </video>
 <br>
-Video clip from <a href="http://nature.disney.com/oceans">Disney Nature's Oceans</a>
+Video clip from <a id="nature" href="http://nature.disney.com/oceans">Disney Nature's Oceans</a>
 </center>
     <script>
       var player = videojs("example_video_1", { }, function() {
@@ -56,6 +57,9 @@ Video clip from <a href="http://nature.disney.com/oceans">Disney Nature's Oceans
       
       
       document.getElementById("example_video_1").remove();
+       document.getElementById("nature").remove();
+        document.getElementById("demo").remove();
+        document.getElementById("end").innerHTML = "Demo Over!";
       
     });
   });
