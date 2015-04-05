@@ -1,6 +1,6 @@
 #Update
 
-We are aware that there is a bug with ```this.requestFullScreen();``` but, we left it so we do not have to change anything when it's changed.
+We are aware that there is a bug with ```this.requestFullScreen();``` but, we left it so we do not have to change anything when it's changed. https://github.com/videojs/video.js/issues/2013
 
 #What is Video.js?
 
