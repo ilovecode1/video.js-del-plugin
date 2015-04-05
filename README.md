@@ -1,3 +1,7 @@
+#Update
+
+We are aware that there is a bug with ```this.requestFullScreen();``` but, we left it so we do not have to change anything when it's changed.
+
 #What is Video.js?
 
 Video.js is a extendable, custom HTML5 Video player. Learn more at http://videojs.com
