@@ -1,4 +1,4 @@
-//Video.js DEL (Doing Ending Leaving) v1.0.5
+//Video.js DEL (Doing Ending Leaving) v1.1
 
 function del(videoname, fullscreen) {
 
@@ -14,11 +14,8 @@ function del(videoname, fullscreen) {
     
     this.on('ended', function() {
     
-      if (fullscreen) {
-      
-        this.cancelFullScreen();
-        
-      }
+     this.cancelFullScreen();
+
       
       document.getElementById(video-name).remove();
       
