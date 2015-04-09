@@ -58,4 +58,3 @@ There is no 3rd step
 #In the future
 
 1. Add more custom features
-2. Add a option for full screen that you can disable making go of full screen (Be Careful With That One!)
