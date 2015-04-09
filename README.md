@@ -1,3 +1,7 @@
+#v1.2
+
+Unuglied the code!
+
 #Get Older Versions
 
 https://github.com/ilovecode1/video.js-del-plugin/commits/bc019a4c06b297f71457db29936a781388efa4b9/del.js
