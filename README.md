@@ -1,6 +1,7 @@
-#v1.2
+#v1.2.2
 
-Unuglied the code!
+1. Bug Fix
+2. Shows Video When Video Starts!
 
 #Get Older Versions
 
@@ -18,12 +19,13 @@ Video.js is a extendable, custom HTML5 Video player. Learn more at http://videoj
 
 ##Doing
 
+* Shows Video
 * It auto starts the video
 * Makes it go full screen (you can change that part).
 
 ##Ending
 
-*Turns of fullscreen
+*Turns off fullscreen
 
 ##Leaving
 
