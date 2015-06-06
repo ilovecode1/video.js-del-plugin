@@ -1,3 +1,7 @@
+#v1.3
+
+1. Set what the HTML will be when  video is done
+
 #v1.2.2
 
 1. Bug Fix
@@ -7,10 +11,6 @@
 #Get Older Versions
 
 https://github.com/ilovecode1/video.js-del-plugin/commits/bc019a4c06b297f71457db29936a781388efa4b9/del.js
-
-#Update
-
-We are aware that there is a bug with ```this.requestFullScreen();``` but, we left it so we do not have to change anything when it's changed. https://github.com/videojs/video.js/issues/2013
 
 #What is Video.js?
 
@@ -27,6 +27,7 @@ Video.js is a extendable, custom HTML5 Video player. Learn more at http://videoj
 ##Ending
 
 * Turns off fullscreen
+* Set HTML
 
 ##Leaving
 
@@ -50,7 +51,7 @@ Video.js is a extendable, custom HTML5 Video player. Learn more at http://videoj
 
 ```
 <script>
-del("yourVideoName",true /*true if you want it to auto fullscreen false if not!*/)
+del("yourVideoName",true /*true if you want it to auto fullscreen false if not!*/,"<p>The Video is Done!</p>")
 </script>
 ```
 
