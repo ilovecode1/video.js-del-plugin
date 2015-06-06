@@ -2,6 +2,7 @@
 
 1. Bug Fix
 2. Shows Video When Video Starts!
+3. Smaller
 
 #Get Older Versions
 
