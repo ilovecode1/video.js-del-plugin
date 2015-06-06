@@ -26,11 +26,11 @@ Video.js is a extendable, custom HTML5 Video player. Learn more at http://videoj
 
 ##Ending
 
-*Turns off fullscreen
+* Turns off fullscreen
 
 ##Leaving
 
-*It Deletes the video from existance.
+* It Deletes the video from existance.
 
 #How to use it?
 
