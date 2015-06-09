@@ -1,3 +1,9 @@
+#v1.4
+
+1. Comments
+2. Spacing is correct
+3. Fixed fullscreen with fullscreen.js!
+
 #v1.3
 
 1. Set what the HTML will be when  video is done
