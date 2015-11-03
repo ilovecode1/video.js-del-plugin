@@ -1,6 +1,6 @@
 # Update
 
-Does not work on Mobile Devices!
+It does work with v5+!
 
 #v1.4
 
