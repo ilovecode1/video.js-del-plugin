@@ -36,7 +36,7 @@ function del(videoname, fullscreen, onEnd) {
       exitFullscreen();//Leave fullscreen
       document.getElementById(video-name).remove();//Remove Video
       document.getElementById("end").innerHTML = onEnd;//Show onEnd code
-    };
+    }
     });
   });
 }
