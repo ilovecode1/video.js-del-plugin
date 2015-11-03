@@ -22,9 +22,10 @@ function exitFullscreen() {
   }
 }
 
-//Video.js DEL (Doing Ending Leaving) v1.4
+//Video.js DEL (Doing Ending Leaving) v1.4.5
 
 function del(videoname, fullscreen, onEnd) {
+  window.onload = function() {
   var player = videojs(videoname, { }, function() {//Register with video.js
     if (fullscreen) {//See if fullscreen is true
       fullscreen(videoname);//Fullscreen
@@ -35,7 +36,7 @@ function del(videoname, fullscreen, onEnd) {
       exitFullscreen();//Leave fullscreen
       document.getElementById(video-name).remove();//Remove Video
       document.getElementById("end").innerHTML = onEnd;//Show onEnd code
-
+    };
     });
   });
 }
