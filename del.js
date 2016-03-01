@@ -38,5 +38,5 @@ function del(videoname, fullscreen, onEnd) {
       document.getElementById("end").innerHTML = onEnd;//Show onEnd code
     });
     });
-  });
+  };
 }
